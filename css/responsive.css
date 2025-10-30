@@ -1,0 +1,123 @@
+@media (min-width: 380px) {
+  .container {
+    width: 33rem;
+  }
+
+  .tapsi-plus__caption {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 54rem;
+  }
+  .header {
+    background: url("../assets/img/banner\(1\).png");
+    background-position: center;
+    background-size: cover;
+    min-height: 40rem;
+  }
+  .contact-way__location {
+    margin: 0 -12px 1.5rem 0;
+  }
+  .tapsi-plus__title {
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 72rem;
+  }
+
+  .banner__img {
+    display: block;
+  }
+  .banner {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .download__box {
+    margin-right: 5rem;
+    width: 35rem;
+  }
+  .tapsi-services {
+    margin-top: 35rem;
+  }
+  .tapsi-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "tapsi-plus tapsi-plus__img"
+      "tapsi-business tapsi-business__img"
+      "tapsi-validity__img tapsi-validity";
+  }
+
+  .tapsi-plus__caption {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+  .taxt-plan__title {
+    font-family: var(--primary-font-md);
+    font-size: 3.2rem;
+    margin: 5rem 0;
+  }
+  .contact-way__location {
+    margin: 0 -6px 1.5rem 0;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 96rem;
+  }
+  .nav-btn {
+    display: none;
+  }
+  .nav-mobile {
+    display: block;
+  }
+  .download__box {
+    min-height: 33rem;
+    width: 44rem;
+  }
+  .download__box--link {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 4rem;
+  }
+  .download__box--title {
+    color: var(--secondary-color);
+    font-family: var(--primary-font-md);
+    font-weight: 500;
+    font-size: 5rem;
+  }
+  .download__box--text {
+    color: var(--secondary-color);
+    font-family: var(--primary-font-md);
+    font-weight: 500;
+    font-size: 2.4rem;
+  }
+  .download__box--title {
+    padding-right: 3rem;
+  }
+  .download__box--text {
+    margin: 1rem 3rem 3rem 0;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 114rem;
+  }
+  .contact {
+    grid-template-columns: 40% 60%;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 137rem;
+  }
+}
