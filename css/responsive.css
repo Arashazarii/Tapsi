@@ -69,6 +69,13 @@
   .contact-way__location {
     margin: 0 -6px 1.5rem 0;
   }
+  .servicesـtype svg {
+    width: 9rem;
+    height: 9rem;
+  }
+  .servicesـtype span {
+    font-size: 1.8rem;
+  }
 }
 @media (min-width: 992px) {
   .container {
@@ -106,6 +113,9 @@
   }
   .download__box--text {
     margin: 1rem 3rem 3rem 0;
+  }
+  .nav-mobile-menu {
+    display: none;
   }
 }
 @media (min-width: 1200px) {
