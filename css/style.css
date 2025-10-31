@@ -8,21 +8,21 @@ fonts
   font-family: "iranYekan Regular";
   font-weight: 400;
   font-style: normal;
-  src: url(/assets/fonts/IRANYekanX-Regular.woff) format("woff");
+  src: url(../assets/fonts/IRANYekanX-Regular.woff) format("woff");
 }
 
 @font-face {
   font-family: "iranYekan Medium";
   font-weight: 500;
   font-style: normal;
-  src: url(/assets/fonts/IRANYekanX-Medium.woff) format("woff");
+  src: url(../assets/fonts/IRANYekanX-Medium.woff) format("woff");
 }
 
 @font-face {
   font-family: "iranYekan Bold";
   font-weight: 700;
   font-style: normal;
-  src: url(/assets/fonts/IRANYekanX-Bold.woff) format("woff");
+  src: url(../assets/fonts/IRANYekanX-Bold.woff) format("woff");
 }
 
 /* 
