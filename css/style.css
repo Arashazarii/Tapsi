@@ -777,10 +777,11 @@ textarea::placeholder {
 .contact-way {
   margin: 2rem auto;
 }
+
 .contact-way__location {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   /* margin-bottom: 1.5rem; */
   margin: 0 -6px 1.5rem 0;
 }
@@ -792,7 +793,7 @@ textarea::placeholder {
 .contact-way__phone {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 2.1rem;
   margin-bottom: 2rem;
 }
 .contact-way__phone a {
@@ -803,7 +804,7 @@ textarea::placeholder {
 .contact-way__mail {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.3rem;
   margin-bottom: 1.5rem;
 }
 .contact-way__mail a {
